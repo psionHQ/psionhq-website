@@ -1,125 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PSION | Infrastructure for the AI Era</title>
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,Helvetica,sans-serif;
-}
+<title>PSION — The Foundation of AI</title>
 
-body{
-background:#05070A;
-color:white;
-display:flex;
-justify-content:center;
-align-items:center;
-height:100vh;
-overflow:hidden;
-}
-
-.hero{
-text-align:center;
-z-index:2;
-}
-
-.logo{
-font-size:120px;
-color:#38d39f;
-text-shadow:0 0 25px #38d39f;
-margin-bottom:20px;
-}
-
-h1{
-font-size:64px;
-letter-spacing:8px;
-}
-
-p{
-margin-top:20px;
-font-size:22px;
-color:#b5c4c9;
-}
-
-.buttons{
-margin-top:50px;
-}
-
-a{
-display:inline-block;
-margin:10px;
-padding:18px 40px;
-border-radius:50px;
-text-decoration:none;
-font-weight:bold;
-transition:.3s;
-}
-
-.primary{
-background:#38d39f;
-color:black;
-}
-
-.primary:hover{
-transform:scale(1.05);
-box-shadow:0 0 30px #38d39f;
-}
-
-.secondary{
-border:2px solid #38d39f;
-color:white;
-}
-
-.secondary:hover{
-background:#38d39f;
-color:black;
-}
-
-.bg{
-position:absolute;
-width:600px;
-height:600px;
-background:#38d39f;
-filter:blur(180px);
-opacity:.15;
-border-radius:50%;
-animation:move 10s infinite alternate;
-}
-
-@keyframes move{
-from{transform:translate(-150px,-100px);}
-to{transform:translate(150px,120px);}
-}
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<div class="bg"></div>
+<header class="navbar">
 
-<div class="hero">
+<div class="container">
+
+<div class="brand">
+
+<div class="brand-logo">Ψ</div>
+
+<span>PSION</span>
+
+</div>
+
+<nav>
+
+<a href="#mission">Mission</a>
+
+<a href="#infrastructure">Infrastructure</a>
+
+<a href="#roadmap">Roadmap</a>
+
+<a href="#community">Community</a>
+
+</nav>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
 
 <div class="logo">Ψ</div>
 
 <h1>PSION</h1>
 
-<p>Infrastructure for the AI Era</p>
+<p class="subtitle">
+
+The Foundation of AI
+
+</p>
+
+<p class="description">
+
+Building scalable infrastructure for artificial intelligence,
+high-performance computing and next-generation digital ecosystems.
+
+</p>
 
 <div class="buttons">
 
-<a class="primary" href="#">Explore</a>
+<a href="#mission" class="btn">Explore</a>
 
-<a class="secondary" href="#">Whitepaper</a>
+<a href="#" class="btn secondary">Whitepaper</a>
+
+</div>
 
 </div>
 
+</section>
+
+<section id="mission">
+
+<div class="container">
+
+<h2>Mission</h2>
+
+<p>
+
+PSION is building long-term infrastructure designed for artificial intelligence,
+high-performance computing and future digital networks.
+
+</p>
+
 </div>
+
+</section>
+
+<script src="script.js"></script>
 
 </body>
 
